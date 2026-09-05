@@ -23,7 +23,7 @@ Analyze the following GitHub issue.
 user_prompt = f"Title: {issue_title}\n\nBody: {issue_body}"
 
 response = client.models.generate_content(
-    model='gemini-2.5-flash',
+    model='gemini-3.6-flash',
     contents=user_prompt,
     config=types.GenerateContentConfig(
         system_instruction=system_prompt,
