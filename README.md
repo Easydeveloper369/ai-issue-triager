@@ -38,3 +38,5 @@ By modifying the `system_prompt` in `agent.py`, you can instruct the bot to look
 3. The runner injects the API credentials securely via GitHub Secrets.
 4. The Python script sanitizes the issue body and requests a JSON evaluation from Google Gemini.
 5. The script validates the AI's response and executes a REST API call to GitHub to label the issue and post a comment.
+
+[View Source Code](https://github.com/Easydeveloper369/ai-issue-triager)
